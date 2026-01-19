@@ -27,9 +27,9 @@ import Link from "next/link"
 const sponsorshipTiers = [
   {
     name: "Title Sponsor",
-    subtitle: "Platinum Partner",
-    amount: "BDT 15,00,000",
-    amountText: "BDT Fifteen Lacs Only",
+    subtitle: "Premium Partnership",
+    amount: "BDT 25,00,000",
+    amountText: "BDT Twenty Five Lacs Only",
     icon: Crown,
     color: "text-purple-600",
     bgColor: "bg-purple-100 dark:bg-purple-950",
@@ -37,45 +37,67 @@ const sponsorshipTiers = [
     popular: true,
     benefitCount: 12,
     benefits: [
-      "Logo on main rover body (proportional)",
+      "Logo on main rover body and banners",
       "Corporate mention in print and media",
       "Company banner in particular events and venue",
-      "Logo on posters and banners",
+      "Logo on posters",
       "Advertisement at the start of the seminar",
       "Company stall in the venue (size on discussion)",
-      "Promotional advertisement in the MM screen",
+      "Promotional advertisement in the MM screen (during breaks and leisure)",
       "Logo on gift hampers and packages",
       "Logo on merchandise (non-commercial)",
       "Logo on merchandise (commercial)",
-      "Brand/product value survey/analysis",
+      "Brand/product value survey/analysis (interviewing participants and visitors)",
+      "Advertisement on Digital Platforms, Social Media and event",
+    ],
+  },
+  {
+    name: "Platinum Sponsor",
+    subtitle: "Platinum Partnership",
+    amount: "BDT 15,00,000",
+    amountText: "BDT Fifteen Lacs Only",
+    icon: Award,
+    color: "text-blue-600",
+    bgColor: "bg-blue-100 dark:bg-blue-950",
+    borderColor: "border-blue-200 dark:border-blue-800",
+    benefitCount: 10,
+    benefits: [
+      "Logo on main rover body and banners",
+      "Corporate mention in print and media",
+      "Company banner in particular events and venue",
+      "Logo on posters",
+      "Advertisement at the start of the seminar",
+      "Company stall in the venue (size on discussion)",
+      "Promotional advertisement in the MM screen (during breaks and leisure)",
+      "Logo on merchandise (non-commercial)",
+      "Brand/product value survey/analysis (interviewing participants and visitors)",
       "Advertisement on Digital Platforms, Social Media and event",
     ],
   },
   {
     name: "Gold Sponsor",
-    subtitle: "Gold Partner",
+    subtitle: "Gold Partnership",
     amount: "BDT 10,00,000",
     amountText: "BDT Ten Lacs Only",
-    icon: Award,
+    icon: Star,
     color: "text-yellow-600",
     bgColor: "bg-yellow-100 dark:bg-yellow-950",
     borderColor: "border-yellow-200 dark:border-yellow-800",
-    benefitCount: 9,
+    benefitCount: 8,
     benefits: [
-      "Logo on main rover body (proportional)",
+      "Logo on main rover body and banners",
       "Corporate mention in print and media",
       "Company banner in particular events and venue",
-      "Logo on posters and banners",
+      "Logo on posters",
       "Advertisement at the start of the seminar",
-      "Logo on gift hampers and packages",
+      "Promotional advertisement in the MM screen (during breaks and leisure)",
       "Logo on merchandise (non-commercial)",
-      "Brand/product value survey/analysis",
       "Advertisement on Digital Platforms, Social Media and event",
     ],
   },
   {
     name: "Silver Sponsor",
-    subtitle: "Silver Partner",
+    subtitle: "Silver Partnership",
     amount: "BDT 5,00,000",
     amountText: "BDT Five Lacs Only",
     icon: Star,
@@ -84,15 +106,15 @@ const sponsorshipTiers = [
     borderColor: "border-gray-200 dark:border-gray-800",
     benefitCount: 6,
     benefits: [
-      "Logo on main rover body (proportional)",
+      "Logo on main rover body and banners",
       "Corporate mention in print and media",
-      "Logo on posters and banners",
-      "Logo on gift hampers and packages",
+      "Company banner in particular events and venue",
+      "Logo on posters",
+      "Promotional advertisement in the MM screen (during breaks and leisure)",
       "Logo on merchandise (non-commercial)",
-      "Advertisement on Digital Platforms, Social Media and event",
     ],
   },
-]
+];
 
 const previousSponsors = [
   {
@@ -304,7 +326,7 @@ export default function SponsorsPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {sponsorshipTiers.map((tier, index) => (
               <Card
                 key={index}
