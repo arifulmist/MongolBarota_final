@@ -132,7 +132,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl p-8">
               <Image
-                src="/about_pic.jpg"
+                src="/ss.jpg"
                 alt="Team working on rover"
                 width={400}
                 height={400}
