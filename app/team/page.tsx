@@ -8,16 +8,16 @@ import Link from "next/link"
 
 const leadership = [
   {
-    name: "Raisul Islam Rahad",
+    name: "Sameen Abrar",
     role: "Team Leader",
     department: "Computer Science & Engineering",
     level: "Level 4",
-    email: "raisulll.rahad@gmail.com",
-    phone: "+8801778665529",
-    image: "/Team/raisul.jpg",
+    email: "sameenabrar121@gmail.com",
+    phone: "+8801613-392018",
+    image: "/Team/team_lead.jpg",
     bio: "Leading the team towards URC 2026 and ARC 2026 with vision and technical expertise in robotics and AI systems.",
-    linkedin: "#",
-    github: "#",
+    linkedin: "https://www.linkedin.com/in/sameen-abrar/",
+    github: "https://github.com/Shinigami2018",
   }
 ]
 
@@ -286,18 +286,18 @@ const subTeams = [
         department: "Electrical Electronics and Communication Engineering",
         image: "/Team/soft/balajee_biswas.jpg",
       },
-      {
-        name: "Md Arif Sadik Molla",
-        role: "Team Member",
-        department: "Computer Science & Engineering",
-        image: "/Team/soft/md_arif_sadik_molla.jpg",
-      },
-      {
-        name: "Najifa Raksanda",
-        role: "Team Member",
-        department: "Computer Science & Engineering",
-        image: "/Team/soft/najifa_raksanda.jpg",
-      },
+      // {
+      //   name: "Md Arif Sadik Molla",
+      //   role: "Team Member",
+      //   department: "Computer Science & Engineering",
+      //   image: "/Team/soft/md_arif_sadik_molla.jpg",
+      // },
+      // {
+      //   name: "Najifa Raksanda",
+      //   role: "Team Member",
+      //   department: "Computer Science & Engineering",
+      //   image: "/Team/soft/najifa_raksanda.jpg",
+      // },
       {
         name: "Nujhat Nazifah Nawal",
         role: "Team Member",

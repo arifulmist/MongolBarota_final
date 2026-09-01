@@ -410,15 +410,15 @@ export default function SponsorsPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Competition Timeline 2026</h2>
-              <p className="text-lg text-muted-foreground">Key dates for URC 2026</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Competition Timeline 2027</h2>
+              <p className="text-lg text-muted-foreground">Key dates for URC 2027</p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
               <Card className="bg-primary text-primary-foreground">
                 <CardContent className="p-8 text-center">
                   <h3 className="text-2xl font-bold mb-2">SAR Submission</h3>
-                  <p className="text-4xl font-bold mb-2">27 Feb 2026</p>
+                  <p className="text-4xl font-bold mb-2">27 Feb 2027</p>
                   <p className="opacity-90">System Acceptance Review</p>
                 </CardContent>
               </Card>
@@ -426,7 +426,7 @@ export default function SponsorsPage() {
               <Card className="bg-secondary">
                 <CardContent className="p-8 text-center">
                   <h3 className="text-2xl font-bold mb-2">URC Finals</h3>
-                  <p className="text-4xl font-bold mb-2">27-30 May 2026</p>
+                  <p className="text-4xl font-bold mb-2">27-30 May 2027</p>
                   <p className="text-muted-foreground">Utah, USA</p>
                 </CardContent>
               </Card>

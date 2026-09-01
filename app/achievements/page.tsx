@@ -4,6 +4,26 @@ import { Award, Calendar, Medal, Star, Trophy } from "lucide-react";
 import Image from "next/image";
 
 const achievements = [
+    {
+    year: "2026",
+    title: "URC 2025 Global Competition",
+    competition: "University Rover Challenge",
+    location: "Utah, USA",
+    result: "11th Place Worldwide",
+    description:
+      "Competed at the Mars Desert Research Station in Utah with CELESTE-I , achieving 11th position among the world's best university rover teams.",
+    image: "/Achievements/26.jpg",
+    icon: Star,
+    color: "text-primary",
+    bgColor: "bg-primary/10",
+    highlights: [
+      "11th Place Global",
+      "Onsite Finals Competition",
+      "CELESTE-I Performance",
+    ],
+    teamSize: "15 members",
+    rover: "CELESTE-I",
+  },
   {
     year: "2025",
     title: "URC 2025 Global Competition",

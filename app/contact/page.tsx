@@ -30,11 +30,11 @@ const contactInfo = [
     category: "Team Leadership",
     contacts: [
       {
-        name: "Md Raisul Islam Rahad",
+        name: "Sameen Abrar",
         role: "Team Leader",
         department: "Level 4 Student, CSE",
-        email: "raisulll.rahad@gmail.com",
-        phone: "+8801778665529",
+        email: "sameenabrar121@gmail.com",
+        phone: "+8801613-392018",
       },
     ],
   },
@@ -180,8 +180,8 @@ export default function ContactPage() {
                     <PhoneCall className="w-5 h-5 text-primary" />
                     <div>
                       <div className="text-sm text-muted-foreground">Team Lead</div>
-                      <Link href="tel:+8801778665529" className="font-semibold hover:text-primary">
-                        +880 1778 665529
+                      <Link href="tel:+8801613392018" className="font-semibold hover:text-primary">
+                        +8801613392018
                       </Link>
                     </div>
                   </div>
@@ -320,8 +320,8 @@ export default function ContactPage() {
                       <Phone className="w-5 h-5 text-primary" />
                       <div>
                         <div className="text-xs uppercase tracking-wide text-muted-foreground">Phone</div>
-                        <Link href="tel:+8801778665529" className="font-medium hover:text-primary">
-                          +880 1778 665529
+                        <Link href="tel:+8801613392018" className="font-medium hover:text-primary">
+                         +8801613392018
                         </Link>
                       </div>
                     </div>

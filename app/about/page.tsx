@@ -63,6 +63,12 @@ const timeline = [
     description:
       "Achieved 14th position worldwide in University Rover Challenge 2025, competing at Mars Desert Research Station in Utah.",
   },
+    {
+    year: "2026",
+    title: "URC 2026 Finals",
+    description:
+      "Achieved 11th position worldwide in University Rover Challenge 2026, competing at Mars Desert Research Station in Utah.",
+  },
 ]
 
 export default function AboutPage() {

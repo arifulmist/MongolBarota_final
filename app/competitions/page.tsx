@@ -60,6 +60,12 @@ const competitions = [
       },
     ],
     ourHistory: [
+    {
+        year: "2026",
+        result: "11th Place",
+        score: "Onsite Finals",
+        note: "Strong global performance",
+      },
       {
         year: "2025",
         result: "14th Place",

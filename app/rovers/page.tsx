@@ -6,10 +6,35 @@ import { ArrowRight, Award, Calendar, Cpu, Eye, Medal, Trophy, Zap } from "lucid
 import Image from "next/image"
 
 const rovers = [
+   {
+    id: "CELESTE-I",
+    name: "CELESTE-I",
+    year: "2026-Present",
+    status: "Active",
+    description:
+      "Our latest and most advanced rover, designed for URC 2025 with cutting-edge AI and autonomous navigation.",
+    image: "/CELESTE-i.jpg",
+    achievements: ["URC 2026 Finals Qualified",],
+    specs: {
+      weight: "50 kg",
+      dimensions: "1.2m x 0.8m x 0.6m",
+      power: "24V Li-ion Battery",
+      communication: "Long-range Radio + LoRa",
+      autonomy: "Computer Vision + GPS Navigation",
+      arm: "5-DOF Robotic Arm",
+    },
+    features: [
+      "Advanced autonomous navigation system",
+      "High-precision robotic arm with end effector",
+      "Comprehensive science analysis module",
+      "Real-time video streaming capability",
+      "Robust suspension system for rough terrain",
+    ],
+  },
   {
     id: "aurora-x",
     name: "Aurora X",
-    year: "2024-Present",
+    year: "2024-2025",
     status: "Active",
     description:
       "Our latest and most advanced rover, designed for URC 2025 with cutting-edge AI and autonomous navigation.",
