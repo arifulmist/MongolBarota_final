@@ -10,6 +10,7 @@ const footerLinks = {
     { name: "Our Rovers", href: "/rovers" },
     { name: "Competitions", href: "/competitions" },
     { name: "Achievements", href: "/achievements" },
+    { name: "Alumni", href: "/alumni" },
   ],
   Resources: [
     { name: "News", href: "/news" },

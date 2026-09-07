@@ -17,6 +17,7 @@ const navigationItems = [
   { name: "Competitions", href: "/competitions" },
   { name: "Achievements", href: "/achievements" },
   { name: "Team", href: "/team" },
+  { name: "Alumni", href: "/alumni" },
   { name: "Research Paper", href: "/researchPaper" },
   // { name: "Media", href: "/media" },
   { name: "Sponsors", href: "/sponsors" },
